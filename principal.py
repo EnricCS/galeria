@@ -2,6 +2,12 @@ from flask import Flask, render_template, request, redirect
 from bson import ObjectId
 from pymongo import MongoClient
 
+def usuario():
+	pass
+
+def password():
+	pass
+
 app = Flask(__name__)
 
 client = MongoClient('mongodb://localhost:27017')
